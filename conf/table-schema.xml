@@ -1,0 +1,23 @@
+<tables>
+  <table name="table-name1" columnNum="10">
+    <column type="int">col1</column>
+    <column type="float">col2</column>
+    <column type="double">col3</column>
+    <column type="date">col4</column>
+    <column type="string">col5</column>
+    <column type="int">col6</column>
+    <column type="float">col7</column>
+    <column type="double">col8</column>
+    <column type="date">col9</column>
+    <column type="string">col10</column>
+    <storage type="txt" del="\|">hdfs://namenode1/DATA/table-name1.txt</storage>
+  </table>
+  <table name="table-name2" columnNum="5">
+    <column type="int">col1</column>
+    <column type="float">col2</column>
+    <column type="double">col3</column>
+    <column type="date">col4</column>
+    <column type="string">col5</column>
+    <storage type="txt" del="\|">hdfs://namenode1/DATA/table-name2.txt</storage>
+  </table>
+</tables>
