@@ -7,7 +7,7 @@ Currently this project contains two practical utilities:
 
 2. common.toParquet
 
-1. sql.query
+##1. sql.query
 
 This utility is similar to Spark's default spark-sql CLI, only that it provides more convenience and possibilities. Furthermore, it's tested and verified that query performance by invoking this utility is better than query performance by invoking default spark-sql CLI in most use cases.
 
