@@ -16,3 +16,7 @@ You don't have to install Hive in the same cluster where Spark is deployed, no n
 
 ####`2) More choices for displaying query results`<br>
 In spark-sql CLI, you can only print your query results to your current session terminal, when the query result is large, you may lose some result sets and can only obtain a partial query result. With sql.query utility, however, you can either print your query results to current session terminal or store your results directly onto HDFS.
+
+##2. common.toParquet
+
+This utility is to convert a text file to a parquet file given a table-schema.xml configuration file.
