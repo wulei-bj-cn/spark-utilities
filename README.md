@@ -23,11 +23,11 @@ In spark-sql CLI, you can only print your query results to your current session 
 This utility is to convert a text file to a parquet file given a table-schema.xml configuration file.
 
 ##Usage of the utilities
-*Step1.<br>
+* Step1.<br>
 Compile the source code and build a jar file named "spark-utilities" in your favorite editors.<br>
-*Step2.<br>
+* Step2.<br>
 Create a table-schema.xml file and move it to Spark's default conf/ directory. Make sure your table-schema.xml file conforms to the example in the conf directory.<br>
-*Step3.<br>
+* Step3.<br>
 1) Run a query<br>
 spark-submit --master your_spark_master --class sql.query spark-utilities.jar your_query_statement [hdfs_path_to_store_your_query_results]<br>
 2) Convert a text file to parquet format
